@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8" >
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <link rel="shortcut icon" href="assets/titlelogo.png" >
+  <title>Petals</title>
+  <link rel="stylesheet" href="style.css" >
+  <link rel="preconnect" href="https://fonts.googleapis.com" >
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" >
+</head>
+
+<body>
+  <header id="Home-1">
+    <div class="logo">
+      <div class="hamburger">
+        <img src="assets/mob-menu.png" alt="menu" >
+      </div>
+      <div class="logoimg">
+        <img src="assets/logo.png" alt="logo" >
+      </div>
+    </div>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#Home-1" class="active"> Home</a></li>
+        <li><a href="#About-1">About</a></li>
+        <li><a href="#Categories-1">Categories</a></li>
+        <li><a href="#Connect-1">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="banner">
+      <img id="img1" src="assets/banner1.jpg" alt="banner1" >
+      <aside class="aside">
+        <img id="img2" src="assets/side-banner2.jpg" alt="side-banner1" >
+        <img id="img3" src="assets/side-banner1.jpg" alt="side-banner2" >
+      </aside>
+    </section>
+    <h1 id="About-1" class="bartext titleBar">Featured</h1>
+    <div class="container">
+      <div class="card">
+        <img src="assets/flower-1.jpg" alt="flower-1" >
+        <h2>Lorem ipsum</h2>
+        <p>Lorem ipsum Lorem ipsum</p>
+      </div>
+      <div class="card">
+        <img src="assets/flower-2.jpg" alt="flower-2" >
+        <h2>Lorem ipsum</h2>
+        <p>Lorem ipsum Lorem ipsum</p>
+      </div>
+      <div class="card">
+        <img src="assets/flower-3.jpg" alt="flower-3" >
+        <h2>Lorem ipsum</h2>
+        <p>Lorem ipsum Lorem ipsum</p>
+      </div>
+    </div>
+    <article id="Categories-1" class="articles">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla varius
+        elit gravida varius mollis. Proin porta fermentum nisl, quis feugiat
+        sem dignissim a. Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit. Morbi ut nulla aliquet, viverra lorem a, vulputate ipsum. Nam
+        hendrerit vestibulum massa,id sollicitudin arcu com-modo a. Mauris
+        pretium tellus vel justo ultrices, vel condimentum neque dictum.
+        Nullam vitae condimentum dui.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla varius
+        elit gravida varius mollis. Proin porta fermentum nisl, quis feugiat
+        sem dignissim a. Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit. Morbi ut nulla aliquet, viverra lorem a, vulputate ipsum. Nam
+        hendrerit vestibulum massa,id sollicitudin arcu com-modo a. Mauris
+        pretium tellus vel justo ultrices, vel condimentum neque dictum.
+        Nullam vitae condimentum dui.
+      </p>
+    </article>
+    <script>
+      hamburger = document.querySelector(".hamburger");
+      hamburger.onclick = function () {
+        navBar = document.querySelector(".navbar");
+        navBar.classList.toggle("active");
+      };
+    </script>
+  </main>
+  <footer id="Connect-1">
+    <h3 class="connect">Connect us</h3>
+    <div class="footerimg">
+      <a href="https://www.facebook.com/syed.abdulazeez.56/" target="_blank"><img src="assets/fb.png" alt="face book" ></a>
+      <a href="https://www.google.com" target="_blank"><img src="assets/google-plus.png" alt="google" ></a>
+      <a href="https://www.twitter.com" target="_blank"><img src="assets/twitter.png" alt="twitter" ></a>
+      <a href="https://www.skype.com" target="_blank"><img src="assets/skype.png" alt="skype" ></a>
+    </div>
+    <span> Copyright <span>Petals</span> 2019</span>
+  </footer>
+</body>
+
+</html>
