@@ -29,21 +29,6 @@ html{
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
-.banner__container{
-
-
-}
-.banner__content{
- 
- 
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%)
-}
-.banner__img{
-  height: 100%;
-  width: 100%;
-}
 .banner__content{
   color: white;
   padding:20rem 1rem;

@@ -11,7 +11,7 @@ html{
 header{
   background-image: url(assets/banner.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 100%; 
+  background-size: cover;
 }
 
 .header__logo li img{
@@ -32,11 +32,10 @@ header{
   color: black !important;
   border: 0px solid #43c370 !important;
   font-size: 1.2rem;
-  border-bottom: 3px solid rgba(0, 0, 0, 0) !important;
 }
 .nav-link:hover{
   color: white !important;
-  border-bottom: 3px ridge #43c370 !important;
+  border-bottom: 3px solid #43c370 !important;
 }
 .header__icons li{
   border: 1px solid black;
