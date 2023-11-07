@@ -1,0 +1,96 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+html{
+  font-size: clamp(0.75rem,1vw,1rem);
+}
+.header__icons img{
+  font-size: 2rem;
+}
+.slide__content h2{
+  font-size: 3rem;
+  font-weight: 600;
+}
+.slide__content p{
+  font-size: 1.5rem;
+
+}
+.slide__content button{
+ width: 30%;
+ padding: 0.75rem 1.5rem;
+ border: 0;
+ background-color: aqua;
+ border-radius: 2rem  2rem ;
+ margin: 2rem 1rem;
+ font-weight: 600;
+}
+.carousel-control-next i{
+  color: black;
+}
+.carousel-control-prev i{
+  color: black;
+}
+.carousel-inner{
+  background-image: url(asset/Product.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+}
+.bg-dark{
+  background-color: black !important;
+}
+.ribbon h2{
+  font-size: 1.5rem;
+}
+.ribbon button{
+  margin-left: 2rem;
+  padding: .75rem 1.5rem;
+  border: 0;
+  border-radius: 2rem 2rem;
+  background-color: aqua;
+}
+.pages 
+.pages h2{
+  font-size: 3rem;
+  font-weight: 600;
+}
+.pages p{
+  font-size: 1.5rem;
+
+}
+.pages span{
+  font-size: 7rem;
+  font-weight: 900;
+  color: rgb(164, 164, 164);
+}
+.pages button{
+ width: 30%;
+ padding: 0.75rem 1.5rem;
+ border: 0;
+ background-color: aqua;
+ border-radius: 2rem  2rem ;
+ margin: 2rem 1rem;
+ font-weight: 600;
+}
+.product__card span{
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 1rem;
+}
+.product__card img{
+   height: 15rem;
+   aspect-ratio:1;
+   padding: 1rem;
+}
+.bg-light{
+  background-color: #ebebeb !important;
+}
+
+.footer__links h3{
+  font-size: 3rem;
+  font-weight: 900;
+}
+.footer__links p{
+  font-size: 1.1rem;
+}

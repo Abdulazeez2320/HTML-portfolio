@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+  <link rel="stylesheet" href="style.css">
+  <title>HomePress</title>
+</head>
+<body class="vh-100 d-flex flex-column">
+  <header>
+    <section class="container d-flex flex-wrap mt-3 justify-content-between">
+      <ul class="header__logo list-unstyled align-items-center">
+        <li><img src="assets/logo.png" alt="logo"></li>
+      </ul>
+      <ul class="header__top_nav list-unstyled d-flex mx-sm-auto mx-none">
+        <nav class="navbar navbar-expand-md navbar-light container">
+          <section class="container-fluid">
+    
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <section class="collapse navbar-collapse " id="navbarNav">
+              <ul class="navbar-nav d-flex">
+                <li class="nav-item">
+                  <a class="nav-link mx-2" href="#home">Home <i class="fas fa-chevron-down"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-2" href="#pages">LISTING <i class="fas fa-chevron-down"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-2" href="#elements">PROPERTY <i class="fas fa-chevron-down"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-2" href="#portfolio">PAGES <i class="fas fa-chevron-down"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-2" href="#blog">IDX PAGES <i class="fas fa-chevron-down"></i></a>
+                </li>
+              </ul>
+            </section>
+          </section>
+        </nav>
+      </ul>
+      <ul class="header__icons ms-auto my-0 d-flex list-unstyled justify-content-center ">
+        <li><img src="assets/add.png" alt="add"><span class="d-none d-md-inline-flex">ADD LISTING</span></li> 
+       
+      </ul> 
+    </section>
+    <section class="banner container ">
+      <h1 class="text-start text-white banner__header">Real Estate</h1>
+      <h2 class="text-start text-white banner__header mb-5">and Brokerage Agency</h2>
+      
+      <div class="container">
+        <section class="d-flex">
+          <h2 class="accordion-header" id="section1">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
+                buy
+            </button>
+        </h2>
+        <h2 class="accordion-header" id="section2">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">
+              sell
+          </button>
+        </h2>
+        <h2 class="accordion-header" id="section3">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3">
+              rent
+          </button>
+      </h2>
+        </section>
+        <div class="accordion d-flex border-0" id="accordionExample">
+            <div class="accordion-item show">
+               
+                <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body d-flex flex-wrap">
+                      <div class="dropdown">
+                        <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          Appartments
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </div>
+                      <form action="submit">
+                        <input type="text" placeholder="Search">
+                      </form>
+                      <button type="submit" class="search-btn"><i class="fas fa-search"></i> Search</button>
+                      <span class="serch__settings text-white">Advanced Search <i class="fas fa-chevron-down"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                
+                <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body d-flex flex-wrap">
+                    <div class="dropdown">
+                      <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Appartments
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </div>
+                    <form action="submit">
+                      <input type="text" placeholder="Search">
+                    </form>
+                    <button type="submit" class="search-btn"><i class="fas fa-search"></i> Search</button>
+                    <span class="serch__settings text-white">Advanced Search <i class="fas fa-chevron-down"></i></span>
+                  </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body d-flex flex-wrap">
+                    <div class="dropdown">
+                      <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Appartments
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </div>
+                    <form action="submit">
+                      <input type="text" placeholder="Search">
+                    </form>
+                    <button type="submit" class="search-btn"><i class="fas fa-search"></i> Search</button>
+                    <span class="serch__settings text-white">Advanced Search <i class="fas fa-chevron-down"></i></span>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+  </header>
+  <main>
+    <section class="container">
+      <section class="row my-5 py-5">
+      <section class="col-12 col-md-6 home-content justify-content-center align-items-center gap-5 d-flex flex-column">
+        <h2 class="text-center">We know how to sell great homes</h2>
+        <p class="text-center top-content">When you choose Homepress to sell your home, you are aligning yourself with the ultimate professional, and assuring yourself the best service and results.</p>
+        <section class="d-flex flex-wrap gap-5">
+          <section class="item d-flex">
+            <img src="assets/blog.png" alt="blog">
+            <span class="d-flex align-items-center">Our Blog</span>
+          </section>
+          <section class="item d-flex">
+            <img src="assets/services.png" alt="service">
+            <span class="d-flex align-items-center">Our <br> Service</span>
+          </section>
+          <section class="item d-flex">
+            <img src="assets/contact.png" alt="contact">
+            <span class="d-flex align-items-center">Contact Us</span>
+          </section>
+        </section>
+        <p class="text-center home__bottom-content">why we go beyond the typical listings, by sourcing insights straight from locals and offering over 34 neighborhood map overlays, to give people a deeper understanding of what living in a home and neighborhood is like.</p>
+        <p class="text-center home__bottom-content">HomePress and her team&#039;s full-service support allows her business to operate like a boutique firm within a large company. Offering professional floor plans, site plans, surveys, video tours, extensive property brochures both print and interactive, and various social media outlets.</p>
+      </section>
+      <section class="col-12 col-md-6 align-items-center justify-content-center home-image my-auto">
+        <img src="assets/home-treeth.jpg" alt="home-treeth" class="container-fluid ">
+      </section>
+    </section>
+  </section>
+  <section class="featured container d-flex flex-column align-items-center justify-content-center my-5">
+    <h2 class="featured__heading text-center mb-5">As Featured in</h2>
+    <section class="featured__items d-flex flex-wrap align-items-center justify-content-center gap-5">
+      <section class="featured__item d-flex">
+        <img src="assets/high-rise.png" alt="high-rise">
+        <section class="d-flex justify-content-center flex-column">
+        <h3>High-Rise</h3>
+        <span>REAL ESTATE COMPANY</span></section>
+      </section>
+      <section class="featured__item d-flex">
+        <img src="assets/mark-co.png" alt="mark-co">
+        <section class="d-flex justify-content-center flex-column">
+          <h3>MARK &amp; CO.</h3>
+          <span>B U I L D I N G S</span>
+        </section>
+      </section>
+      <section class="featured__item d-flex">
+        <img src="assets/real-estste.png" alt="real-estste">
+        <section class="d-flex justify-content-center flex-column">
+          <span>REAL ESTATE </span>
+          <span>EXPERTS</span>
+        </section>
+      </section>
+      <section class="featured__item d-flex">
+        <img src="assets/home-design.png" alt="home-design">
+        <section class="d-flex align-items-center">
+          <h3>Home Design</h3>
+        </section>
+      </section>
+    </section>
+  </section>
+  <section class="ribbon">
+    <section class="container">
+    <section class="p-3 d-flex align-items-center justify-content-center flex-wrap">
+      <img src="assets/member.png" alt="member">
+      <h2 class="text-white mx-auto">Become a Real Estate Agent</h2>
+      <button class="bg-white text-uppercase border-0 fw-bolder">Register Now</button>
+    </section>
+  </section>
+  </section>
+  </main>
+  <footer class="mt-auto text-center text-lg-start">
+      
+      <div class="container p-4">
+  
+        <div class="row">
+          
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase text-white my-4 footer__list-headding ">Popular Searches</h5>
+    
+            <ul class="list-unstyled mb-0">
+              <li class="my-2 ps-3">
+                <a href="#!" class="text-decoration-none text-light ">Apartment for Rent</a>
+              </li>
+              <li class="my-2 ps-3">
+                <a href="#!" class="text-decoration-none text-light ">Apartment Low to hide</a>
+              </li>
+              <li class="my-2 ps-3">
+                <a href="#!" class="text-decoration-none text-light ">Offices for Buy </a>
+              </li>
+              <li class="my-2 ps-3">
+                <a href="#!" class="text-decoration-none text-light ">Offices for Rent </a>
+              </li>
+              <li class="my-2 ps-3">
+                <button class="footer__list-btn"> More &gt;</button>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase text-white my-4 footer__list-headding">Homepress Markets</h5>
+    
+            <ul class="list-unstyled mb-0">
+              <li class="my-2 ps-3">
+                <a href="#!" class="text-decoration-none text-light ">Los Angeles Offices</a>
+              </li>
+              <li class="my-2 ps-3">
+                <a href="#!" class="text-decoration-none text-light ">Las Vegas Apartments</a>
+              </li>
+              <li class="my-2 ps-3">
+                <a href="#!" class="text-decoration-none text-light ">Sacramento Townhome </a>
+              </li>
+              <li class="my-2 ps-3">
+                <a href="#!" class="text-decoration-none text-light ">San Francisco Offices </a>
+              </li>
+              <li class="my-2 ps-3">
+                <button class="footer__list-btn"> More &gt;</button>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase text-white my-4 footer__list-headding">Quick Links</h5>
+    
+            <ul class="list-unstyled mb-0">
+              <li class="my-2 ps-3">
+                <a href="#!" class="text-decoration-none text-light ">Pricing Plans </a>
+              </li>
+              <li class="my-2 ps-3">
+                <a href="#!" class="text-decoration-none text-light ">Our Services</a>
+              </li>
+              <li class="my-2 ps-3">
+                <a href="#!" class="text-decoration-none text-light ">About Us </a>
+              </li>
+              <li class="my-2 ps-3">
+                <a href="#!" class="text-decoration-none text-light ">Contact Us</a>
+              </li>
+              <li class="my-2 ps-3">
+                <button class="footer__list-btn"> More &gt;</button>
+              </li>
+            </ul>
+          </div>
+
+          <form class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase text-white my-4">subscribe</h5>
+            <input type="text" placeholder="First Name, Last Name*" class="footer__input">
+            <input type="text" placeholder="Your Email Address*" class="footer__input">
+            <input type="submit" value="SUBSCRIBE" class="form__btn">
+          </form>
+        </div>
+  
+      </div>
+
+    <section class="container">
+      <ul class="text-center p-3 d-flex list-unstyled text-light align-items-center justify-content-center flex-wrap">
+        <li><a href="#" class="text-decoration-none text-light footer__bottom_link">Front Page </a></li>
+        <li><a href="#" class="text-decoration-none text-light footer__bottom_link">About us </a></li>
+        <li><a href="#" class="text-decoration-none text-light footer__bottom_link"> Contact Us </a></li>
+        <li><a href="#" class="text-decoration-none text-light footer__bottom_link"> News </a></li>
+        <li><a href="#" class="text-decoration-none text-light footer__bottom_link">Typography</a></li>
+        <li><a href="#" class="text-decoration-none text-light ps-3">Wishlist</a></li>
+    </ul>
+  </section>
+    <section class="container">
+      <section class="copy d-flex justify-content-between align-items-center">
+        <span class="text-white">Copyright &copy;2022. <strong>HomePress</strong></span>
+        <ul class="list-unstyled footer__icons d-flex flex-wrap">
+          <li><i class="fab fa-facebook-f"></i></li>
+          <li><i class="fab fa-twitter"></i></li>
+          <li><i class="fab fa-youtube"></i></li>
+          <li><i class="fab fa-linkedin-in"></i></li>
+          <li><i class="fab fa-instagram"></i></li>
+        </ul>
+      </section>
+  </section>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+  integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+  crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+  integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+  crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

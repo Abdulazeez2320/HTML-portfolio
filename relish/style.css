@@ -1,0 +1,354 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+html{
+  font-size: clamp(0.75,1vw,1rem);
+}
+header{
+  background-color: #a5cf3d;
+}
+header img{
+  height: 3rem;
+
+}
+.delivery{
+  font-size: 0.8rem;
+}
+.delivery-contact{
+  font-size: 1.4rem;
+}
+.top__header{
+  margin-top: 1rem;
+  height: 3rem;
+}
+
+.navbar-nav li a{
+  color: black !important;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.navbar-nav li a:hover{
+  transform: scale(1.1);
+  color: white!important;
+}
+.banner__top-text{
+  font-family: 'Dancing Script', cursive;
+  font-weight: 800;
+  font-size: 3rem;
+}
+.banner__content h1{
+  font-weight: 700;
+  font-size: 4rem;
+}
+.banner__content strong{
+  font-weight: 700;
+  font-size: 1.3rem;
+  padding-bottom: 3rem;
+  border-bottom: 2px solid rgb(127, 126, 126);
+  
+}
+.weekend__hours{
+  /* width: 40%; */
+  text-align: start;
+
+}
+.weekend__offer{
+  font-size: 3rem;
+  font-weight: 600;
+  /* width: 60%; */
+}
+.banner__botton{
+  padding: 0.7rem 2rem;
+  margin: 2rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+  background: transparent;
+  border: black  2px solid;
+}
+.banner__botton:hover{
+  background: transparent;
+  border: rgb(255, 255, 255)  2px solid;
+  color: aliceblue;
+  background-color:#a9ce4c;
+}
+.banner__image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(assets/banner_element_1.png) top left no-repeat,url(assets/banner_element_3.png) top right no-repeat,url(assets/banner_element_2.png) bottom left no-repeat,url(assets/banner_element_4.png) bottom right no-repeat;
+  background-size: 70px;
+  margin: 2rem 0;
+  }
+
+.banner__image img{
+  
+  width: 80%;
+  height: auto;
+
+}
+
+@media  screen and (max-width: 999.5px) {
+  .banner{
+    display:flex;
+    flex-direction: column;
+    
+  }
+
+}
+
+.choose__container h2{
+  font-size: 3rem;
+  font-weight: 700;
+}
+.choose__container p{
+  font-size: 1.4rem;
+  color: gray;
+  margin: 3rem;
+}
+
+.ribbon{
+  background-color: #a5cf3d;
+  height: 7rem;
+  margin: 5rem 0 0 0;
+}
+.cards{
+  position: relative;
+  bottom: 10rem;
+}
+.card{
+  aspect-ratio: 1 !important;
+  background: transparent;
+}
+.card img{
+  height: 60%;
+  margin-bottom: 4rem;
+
+} 
+.card h3{
+font-size: 1.3rem;
+font-weight: 600; 
+}
+.card p{
+font-size: 1rem;
+width: 80%;
+}
+.card{
+ justify-content: center;
+}
+.card button{
+padding: .5rem 1.7rem;
+border: none;
+background-color: #a5cf3d;
+font-weight: 500;
+}
+
+.events{
+  position: relative;
+  bottom: 3rem;
+}
+.events span{
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.events h3{
+  font-weight: 600;
+  font-size: 1.7rem;
+  margin-bottom: 2rem;
+}
+.events p{
+  width:70%;
+  font-weight: 400;
+  color: gray;
+}
+
+
+.swiper-slide {
+text-align: center;
+font-size: 18px;
+background: #ffffff;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.imag_box span {
+  color:#a5cf3d;
+  border: 2px solid #a5cf3d;
+  padding: 0.5rem 1rem;
+}
+.imag_box span:hover{
+  background-color: #acca60;
+  color: white;
+}
+.imag_box-2 span,.imag_box-4 span,.imag_box-6 span{
+  color:#ffffff;
+  border: 2px soli#a5cf3d;
+  background-color: #a5cf3d;
+  padding: 0.5rem 1rem;
+}
+.imag_box-2 span:hover,.imag_box-4 span:hover,.imag_box-6 span:hover{
+  color:#a5cf3d;
+  border: 2px soli#a5cf3d;
+  background-color: #e8ece0;
+  padding: 0.5rem 1rem;
+}
+.imag_box{
+ 
+  height: 15rem;
+  width: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.imag_box-1{
+  background-image: url(assets/upcoming_events_2.png);
+  background-color: rgba(0, 0, 0, 0.662);
+  background-blend-mode: multiply;
+  background-size: cover;
+}
+.imag_box-2{
+  background-image: url(assets/upcoming_events_1.png);
+  background-size: cover;
+}
+.imag_box-3{
+  background-image: url(assets/upcoming_events_3.png);
+  background-color: rgba(0, 0, 0, 0.662);
+  background-blend-mode: multiply;
+}
+.imag_box-4{
+  background-image: url(assets/upcoming_events_2.png);
+}
+.imag_box-5{
+  background-image: url(assets/upcoming_events_1.png);
+  background-color: rgba(0, 0, 0, 0.662);
+  background-blend-mode: multiply;
+}
+.imag_box-6{
+  background-image: url(assets/upcoming_events_3.png);
+}
+
+.card_Swiper{
+ width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .swiper-slide {
+    width:25%
+  }
+  
+}
+.swiper-slide .imag_box img{
+  width: 100%;
+ 
+}
+.swiper-pagination{
+  position: relative;
+  margin-top: 2rem;
+}
+.swiper-pagination-bullet{
+  background-color: #a5cf3d;
+}
+
+
+.main__banner-left{
+  position: relative;
+}
+.main__banner-left img{
+  width: 100%;
+}
+.main__banner-content{
+  position: absolute;
+  top :20%;
+  left: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main__banner-content h3{
+  width: 70%;
+  font-weight: 800;
+  font-size: 2rem;
+  padding: 0 1rem 0rem 1rem;
+}
+.main__banner-content span{
+  width: 70%;
+  font-size: 1.8rem;
+  margin-left: 1rem;
+}
+.banner__top{
+  position: relative;
+  margin-bottom: 1.8rem;
+}
+.banner__top img{
+  width: 100%;
+}
+.banner__top-content{
+  position: absolute;
+  top: 10%;
+  width: 80%;
+  margin-left: 1rem;
+}
+.banner__top-content span{
+  font-size: 1rem;
+  font-weight: 500; 
+}
+.banner__top-content h3{
+  font-size: 1.5rem;
+  font-weight: 600;
+  width: 60%;
+}
+.banner__bottom{
+  position: relative;
+  margin-top: 1.8rem;
+}
+.banner__bottom img{
+  width: 100%;
+}
+.banner__bottom-content{
+  position: absolute;
+  top: 10%;
+  width: 70%;
+  margin-left: 1rem;
+}
+.banner__bottom-content span{
+  font-size: 1rem;
+  font-weight: 500; 
+}
+.banner__bottom-content h3{
+  font-size: 1.5rem;
+  font-weight: 600;
+  width: 50%;
+}
+.form__button{
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+  padding: 0%;
+}
+.form-outline button{
+ background-color: #a5cf3d;
+ font-weight: 600;
+}
+.reservation{
+max-width: 1000px;
+}
+
+.footer__content{
+  margin-top: 10rem;
+}
+.footer__about{
+  width: 80%;
+  color: #91928f;
+}
+
+.footer__address a{
+  text-decoration: none;
+}
+footer{
+  background-color: rgba(0, 0, 0, 0.856);
+  background-image: url(assets/footer_image.png);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: contain;
+}

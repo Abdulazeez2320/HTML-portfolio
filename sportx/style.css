@@ -1,0 +1,75 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+html{
+  font-size: clamp(0.75rem,1vw,1rem);
+}
+
+.navbar-toggler-icon {
+color: white !important;
+}
+.top__logo{
+  cursor: pointer;
+}
+.nav-item{
+  font-weight: 600;
+}
+.nav-item:hover{
+  font-weight: 800;
+}
+.banner__card__content h2{
+   font-size: 4rem;
+   font-style: italic;
+   font-weight: 900;
+   margin:0;
+}
+.banner__card__content p{
+   font-size: 1.2rem;
+   margin: 2rem 1rem;
+}
+.banner__card__content button{
+   font-size: 1.2rem;
+   padding: .75rem 1.5rem;
+   border-radius: 0%;
+   margin: 2rem 1rem;
+}
+.carousel-indicators{
+  position: relative;
+
+}
+.carousel-indicators button{
+  background-color: #ffae09 !important;
+  height: .5rem !important;
+  width: .5rem !important;
+}
+.text-yellow{
+  color: #fade01;
+}
+.bg-yellow{
+  background-color: #fade01;
+}
+.products__content h2{
+  font-size: 3rem;
+
+  font-weight: 900;
+  margin:0;
+}
+.prodcuts section img{
+  width: 10rem;
+}
+.products__content p{
+  font-size: 1.2rem;
+  margin: 2rem 1rem;
+}
+.products__content button{
+  font-size: 1.2rem;
+  padding: .75rem 1.5rem;
+  border-radius: 0%;
+  margin: 2rem 1rem;
+}
+
+.bg-dark{
+  background-color: black !important;
+}
