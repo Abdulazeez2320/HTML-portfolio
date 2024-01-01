@@ -107,7 +107,6 @@ html{
 }
 
 .ribbon{
-
  position: relative;
  bottom: 5rem;
 
@@ -139,6 +138,8 @@ html{
     background-size: 100% 51%;
   }
 }
+
+
 .client1__info,.client2__info{
 color: #ffffff;
 padding: 5rem 0;
